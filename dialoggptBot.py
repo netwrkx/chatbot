@@ -73,6 +73,11 @@ There really is a Linux, and these people are using it, but it is just a part of
         await message.channel.send(f"Give it up folks, {message.author.display_name} over here has something to say. What's that buddy? Wha- A faster WPM?!? WHAT?!? B... Bu... That can't be possible! Surely not! A FASTER WPM? IN MY SIGHT?!? What a great, absolute miracle that you and your 57 WPM fingers were here to beat me! Thank you! Have my grattitude, Actually, What's your cashapp? I'd like to give you 20$... Know what? While we're at it have the keys to my car. Actually, no, scratch that. Have the keys to my house, go watch my kids grow up and fuck my wife. Also, my Paypal username and password is: Ihavenolife4 and 968386329. Go have fun. Thank you for your work.")
         return
 
+    # femboy
+    if message.content.lower() == "says the femboy":
+        await message.channel.send("says the femboy")
+        return
+
         #check if we are in the right channel
     if (message.channel.id != 912240638664257555):
         return
