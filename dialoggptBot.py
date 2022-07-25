@@ -74,8 +74,8 @@ There really is a Linux, and these people are using it, but it is just a part of
         return
 
     # femboy
-    if message.content.lower() == "says the femboy":
-        await message.channel.send("says the femboy")
+    if "femboy" in message.content.lower():
+        await message.reply("says the femboy")
         return
 
         #check if we are in the right channel
